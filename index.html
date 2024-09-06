@@ -1,77 +1,173 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portal de notícias</title>
-    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="stylesheet" href="./main.css" />
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h1> Meu portal de notícias</h1>
+            <h1>Meu portal de notícias</h1>
             <nav>
                 <ul>
-                    <li><a href="#Esportes " title="Ir para a senção de esportes">Esportes</a><br /></li>
-                    <li><a href="#" title="Ir para a senção de notícias">Economia</a><br /></li>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#cryptos" title="Ir para a seção de criptomoedas">Criptomoedas</a>
+                    </li>
+                    <li>
+                        <a href="#politics" title="I para a seção de política">Política</a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
     <section id="sports">
-        <div></div>
-        <h2>Esportes</h2>
-        <img src="./imagens/futebol.jpg" alt="bola de futebol no meio do campo de um estádio"><br />
-        <time class="creation-date">16/05/2024 às 02:00</time>
-
-        <article>
-            <h3>Grande clássico na noite de hoje</h3>
-            <p Align="justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum magnam expedita in tenetur cupiditate facere nemo quasi, iure consequuntur reiciendis architecto, porro ullam, distinctio facilis sunt? Nihil incidunt debitis iste!</p>
-            <a href="#" title="Leia a notícia">Leia mais</a><br /><br />
-        </article>
-
-        <article>
-            <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano segurando a bola"><br />
-            <time class="creation-date">16/05/2024 às 02:00</time>
-            <h3>Noite de Superbowl</h3>
-            <p Align="justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eligendi minus perspiciatis soluta similique nam, quis doloribus beatae, reiciendis est nobis odio consequatur sequi! Dolorum repudiandae incidunt deserunt illum quasi.</p>
-            <a href="#" title="Leia a notícia">Leia mais</a><br /><br />
-        </article>
-
-        <article>
-            <img src="./imagens/basquete.jpg" alt="quadra de basquete sendo vista de cima durante um jogo"><br />
-            <time class="creation-date">16/05/2024 às 02:00</time>
-            <h3>Notícias sobre a NBA</h3>
-            <p Align="justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis eum magnam minima dolor optio? Nam repellat deserunt id nihil iusto tempora facere totam dicta, inventore, illum vitae nisi qui consectetur.</p>
-            <a href="#" title="Leia a notícia">Leia mais</a><br />
-        </article>
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                    <header>
+                        <time class="creation-date">13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Grande clássico na noite de hoje</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Noite do Superbowl</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
     </section>
     <section id="economy">
-        <h2>Economia</h2>
-        <img src="./imagens/dolares.jpg" alt="várias notas de um dolar espalhadas uma sobre a outra "><br />
-        <time class="creation-date">16/05/2024 às 02:00</time>
-        <article>
-            <h3>Dólar em alta de 0.50%</h3>
-            <p Align="justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum magnam expedita in tenetur cupiditate facere nemo quasi, iure consequuntur reiciendis architecto, porro ullam, distinctio facilis sunt? Nihil incidunt debitis iste!</p>
-            <a href="#" title="Leia a notícia">Leia mais</a><br /><br />
-        </article>
-        <article>
-            <img src="./imagens/euro.jpg" alt="várias notas de euros uma sobre a outra da maior para a menor"><br />
-            <time class="creation-date">16/05/2024 às 02:00</time>
-            <h3>Euro dispara em atinge máxima histórica</h3>
-            <p Align="justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eligendi minus perspiciatis soluta similique nam, quis doloribus beatae, reiciendis est nobis odio consequatur sequi! Dolorum repudiandae incidunt deserunt illum quasi.</p>
-            <a href="#" title="Leia a notícia">Leia mais</a><br /><br />
-        </article>
-        <article>
-            <img src="./imagens/petroleo.jpg" alt="extratora de petróleo sob o crepúsculo"><br />
-            <time class="creation-date">16/05/2024 às 02:00</time>
-            <h3>Petróleo tem nova alta em frente novas tensões no oriente médio</h3>
-            <p Align="justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis eum magnam minima dolor optio? Nam repellat deserunt id nihil iusto tempora facere totam dicta, inventore, illum vitae nisi qui consectetur.</p>
-            <a href="#" title="Leia a notícia">Leia mais</a><br />
-        </article>
+        <div class="container">
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Dólar em alta de 0.50%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Euro em queda de 0.40%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Alta no preço do barril do petróleo</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+                <article>
+                    <img src="./imagens/ETH.jpg" alt="Logo do Ethereum" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>SEC aprova ETFS de Ethereum à vista</h3>
+                    <p>
+                        A Comissão de Valores Mobiliários dos EUA (SEC) acaba de aprovar o primeiro lote de ETFs de Ethereum (ETH) à vista. Esses ETFs podem ter enormes implicações nos mercados financeiros, dada a popularidade do ativo e reconhecendo como os ETFs de Bitcoin à vista foram os ETFs de crescimento mais rápido na história dos ETFs, de acordo com o CEO da BlackRock, Larry Fink.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="politics">
+        <div class="container">
+            <h2>Política</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/peru.jpg" alt="Dina Boluarte Presidente do Peru" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Líder impopular do Peru atinge nova mínima: 5% de aprovação</h3>
+                    <p>
+                        Uma nova pesquisa do IEP mostra queda contínua no apoio dos eleitores, escândalos levaram a várias tentativas de impeachment neste ano
+                        A peruana Dina Boluarte viu seu índice de aprovação cair para um novo mínimo, com apenas 5% das pessoas indicando apoiar o presidente em meio às turbulências políticas do país.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/zelenskiy.jpg" alt="Volodymyr Zelenskiy Presidente da Ucrânia" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Zelenskiy implora a Biden e Xi que participem de cúpula enquanto Rússia avança</h3>
+                    <p>
+                        O presidente Volodymyr Zelenskiy pediu aos líderes dos EUA e da China que participem de uma cúpula para discutir o plano de paz da Ucrânia, enquanto a Rússia acumula formações de tropas perto da fronteira nordeste da Ucrânia e intensifica os ataques aéreos.
+                        Bombas planadoras russas atingiram um supermercado em Kharkiv no sábado, matando pelo menos 12 pessoas e ferindo 43, disse o ministro do Interior, Ihor Klymenko, neste domingo.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/lai.jpg" alt="Lai Ching-te em sua cerimônia de posse." />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Legisladores dos EUA e chefe da Nvidia visitam Taiwan após exercícios chineses</h3>
+                    <p>
+                        Uma delegação bipartidária de legisladores dos EUA e do chefe da Nvidia, Jensen Huang, chegou separadamente a Taiwan no domingo, um dia depois que a China encerrou seu maior exercício militar em um ano ao redor da ilha.
+                        A delegação foi liderada pelo deputado Michael McCaul, republicano do Texas, presidente do Comitê de Relações Exteriores da Câmara. Foi o primeiro grupo do Congresso a visitar Taiwan desde a posse do presidente Lai Ching-te em 20 de maio.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
     </section>
 </body>
 
